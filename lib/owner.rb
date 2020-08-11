@@ -59,11 +59,11 @@ class Owner
   end
   
   def dogs
-    Dog.all
+    Dog.all.select{|d|}
   end
 
   def cats
-    Cat.all
+    Cat.all.select
   end
 
   
