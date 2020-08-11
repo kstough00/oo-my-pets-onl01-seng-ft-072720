@@ -1,3 +1,5 @@
+require "pry"
+
 class Owner
   attr_reader :species, :name
   attr_accessor :cats, :dogs
@@ -49,7 +51,8 @@ class Owner
   end
   
   def sell_pets
-    pets = []
+    pets = dogs + cats
+    binding.pry
   end
   
   def dogs
