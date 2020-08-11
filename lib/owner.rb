@@ -63,6 +63,10 @@ class Owner
   def cats
     Cat.all.select{|c|c.owner == self}
   end
+  
+  def list_pets
+    
+    def
 
   
 end
