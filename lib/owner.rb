@@ -49,15 +49,15 @@ class Owner
   end
   
   def sell_pets
-    
+    pets = []
   end
   
   def dogs
-    
+    Dog.all
   end
 
   def cats
-    Cat
+    Cat.all
   end
 
   
